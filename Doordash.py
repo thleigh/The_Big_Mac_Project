@@ -17,6 +17,11 @@ options.set_headless(True)
 driver = webdriver.Chrome(chrome_location, chrome_options=options)
 # , chrome_options=options
 
+# TO DO
+# CREATE A FOR LOOP THAT LOOPS THROUGH ALL OF THE MAJOR CITIES
+
+
+
 try: 
     driver.get('https://www.doordash.com/en-US')
     time.sleep(5)
@@ -33,7 +38,7 @@ except:
     print('Could not find Doordash Input Form')
 
 try: 
-    address_link.send_keys('Santa Monica')
+    address_link.send_keys('90403')
     time.sleep(0.5)
     address_button.click()
     time.sleep(5)

@@ -1,0 +1,43 @@
+major_cities = [
+    # Alabama
+    'Birmingham, Alabama', 'Montgomery, Alabama', 'Mobile, Alabama', 'Huntsville, Alabama',
+    'Tuscaloose, Alabama', 'Hoover, Alabama',
+    # Alaska
+    'Anchorage, Alaska',
+    # Arizona
+    'Phoenix, Arizona', 'Tuscon, Arizona', 'Mesa, Arizona', 'Chandler, Arizona', 'Glendale, Arizona', 
+    'Scottsdale, Arizona', 'Gilbert, Arizona', 'Tempe, Arizona', 'Peoria, Arizona', 'Surprise, Arizona', 
+    'Yuma, Arizona', 'Avondale, Arizona', 
+    # Arkansas
+    'Little Rock, Arkansas', 'Fort Smit, Arkansas', 'Fayettevill, Arkansas', 'Springdal, Arkansas', 
+    'Jonesbor, Arkansas', 
+    # California
+    'Los Angeles, California', 'San Diego, California', 'San Jose, California', 'San Francisco, California', 
+    'Fresno, California', 'Sacramento, California', 'Long Beach, California', 'Oakland, California', 
+    'Bakersfield, California', 'Anaheim, California', 'Santa Ana, California', 'Riverside, California', 
+    'Stockton, California', 'Chula Vista, California', 'Fremont, California', 'Irvine, California', 
+    'San Bernardino, California', 'Modesto, California', 'Oxnard, California', 'Fontana, California', 
+    'Moreno Valley, California', 'Glendale, California', 'Huntington Beach, California', 'Santa Clarita, California', 
+    'Garden Grove, California', 'Santa Rosa, California', 'Oceanside, California', 'Rancho Cucamonga, California', 
+    'Ontario, California', 'Lancaster, California', 'Elk Grove, California', 'Palmdale, California', 'Corona, California', 
+    'Salinas, California', 'Pomona, California', 'Torrance, California', 'Hayward, California', 'Escondido, California', 
+    'Sunnyvale, California', 'Pasadena, California', 'Orange, California', 'Fullerton, California', 'Thousand Oaks, California', 
+    'Visalia, California', 'Simi Valley, California', 'Concord, California', 'Roseville, California', 'Santa Clara, California', 
+    'Vallejo, California', 'Victorville, California', 'El Monte, California', 'Berkeley, California', 'Downey, California', 
+    'Costa Mesa, California', 'Inglewood, California', 'San Buenaventura (Ventura), California', 'West Covina, California', 
+    'Norwalk, California', 'Carlsbad, California', 'Fairfield, California', 'Richmond, California', 'Murrieta, California', 
+    'Burbank, California', 'Antioch, California', 'Daly City, California', 'Temecula, California', 'Santa Maria, California', 
+    'El Cajon, California', 'Rialto, California', 'San Mateo, California', 'Compton, California', 'Clovis, California', 
+    'South Gate, California', 'Vista, California', 'Mission Viejo, California', 'Vacaville, California', 'Carson, California', 
+    'Hesperia, California', 'Redding, California', 'Santa Monica, California', 'Westminster, California', 'Santa Barbara, California', 
+    'Chico, California', 'Whittier, California', 'Newport Beach, California', 'San Leandro, California', 'Hawthorne, California', 
+    'San Marcos, California', 'Citrus Heights, California', 'Alhambra, California', 'Tracy, California', 'Livermore, California', 
+    'Buena Park, California', 'Lakewood, California', 'Merced, California', 'Hemet, California', 'Chino, California', 
+    'Menifee, California', 'Lake Forest, California', 'Napa, California', 'Redwood City, California', 'Bellflower, California', 
+    'Indio, California', 'Tustin, California', 'Baldwin Park, California', 'Chino Hills, California', 'Mountain View, California', 
+    'Alameda, California', 'Upland, California', 'Folsom, California', 'San Ramon, California', 'Pleasanton, California', 
+    'Lynwood, California', 'Union City, California', 'Apple Valley, California', 'Redlands, California', 'Turlock, California', 
+    'Perris, California', 'Manteca, California', 'Milpitas, California', 'Redondo Beach, California', 
+    # Colorado
+    
+    ]
