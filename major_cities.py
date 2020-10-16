@@ -83,4 +83,18 @@ major_cities = [
     'Portland, Maine',
     # Maryland
     'Baltimore, Maryland',
+    # Massachusetts
+    'Boston, Massachusetts', 'Worcester, Massachusetts', 'Springfield, Massachusetts', 'Lowell, Massachusetts', 'Cambridge, Massachusetts', 
+    'New Bedford, Massachusetts', 'Brockton, Massachusetts', 'Quincy, Massachusetts', 'Lynn, Massachusetts', 'Fall River, Massachusetts', 
+    'Newton, Massachusetts', 'Lawrence, Massachusetts', 
+    # Michigan
+    'Detroit, Michigan','Grand Rapids, Michigan','Warren, Michigan','Sterling Heights, Michigan','Lansing, Michigan','Ann Arbor, Michigan',
+    'Flint, Michigan','Dearborn, Michigan','Livonia, Michigan','Westland, Michigan','Troy, Michigan','Farmington Hills, Michigan',
+    'Kalamazoo, Michigan','Wyoming, Michigan','Southfield, Michigan','Rochester Hills, Michigan',
+    # Minnesota
+    'Minneapolis, Minnesota', 'St. Paul, Minnesota', 'Rochester, Minnesota', 'Duluth, Minnesota', 'Bloomington, Minnesota', 'Brooklyn Park, Minnesota', 'Plymouth, Minnesota',
+    # Mississippi 
+    'Jackson, Mississippi', 'Gulfport, Mississippi',
+    
+
     ]
