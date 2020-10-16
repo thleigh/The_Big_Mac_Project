@@ -56,5 +56,8 @@ major_cities = [
     'Miami Gardens, Florida', 'Palm Bay, Florida', 'West Palm Beach, Florida', 'Pompano Beach, Florida', 'Lakeland, Florida', 
     'Davie, Florida', 'Miami Beach, Florida', 'Deltona, Florida', 'Plantation, Florida', 'Sunrise, Florida', 'Boca Raton, Florida', 
     'Largo, Florida', 'Melbourne, Florida', 'Palm Coast, Florida', 'Deerfield Beach, Florida', 'Boynton Beach, Florida', 'Lauderhill, Florida', 
+    # Georgia
+    'Atlanta, Georgia', 'Augusta-Richmond County, Georgia', 'Columbus, Georgia', 'Savannah, Georgia', 'Athens-Clarke County, Georgia', 
+    'Sandy Springs, Georgia', 'Macon, Georgia', 'Roswell, Georgia', 'Albany, Georgia', 'Johns Creek, Georgia', 'Warner Robins, Georgia', 
     
     ]
