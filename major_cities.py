@@ -147,5 +147,21 @@ major_cities = [
     'Abilene, Texas', 'Frisco, Texas', 'Denton, Texas', 'Midland, Texas', 'Wichita Falls, Texas', 'Odessa, Texas', 'Round Rock, Texas', 'Richardson, Texas', 
     'Tyler, Texas', 'Lewisville, Texas', 'College Station, Texas', 'San Angelo, Texas', 'Pearland, Texas', 'Allen, Texas', 'League City, Texas', 'Longview, Texas', 
     'Sugar Land, Texas', 'Edinburg, Texas', 'Mission, Texas', 'Bryan, Texas', 'Baytown, Texas', 'Pharr, Texas', 'Missouri City, Texas', 
-    
+    # Utah
+    'Salt Lake City, Utah', 'West Valley City, Utah', 'Provo, Utah', 'West Jordan, Utah', 'Orem, Utah', 'Sandy, Utah', 'Ogden, Utah', 'St. George, Utah', 'Layton, Utah', 
+    # Vermont
+    'Burlington, Vermont',
+    # Virginia
+    'Virginia Beach, Virginia', 'Norfolk, Virginia', 'Chesapeake, Virginia', 'Richmond, Virginia', 'Newport News, Virginia', 'Alexandria, Virginia', 'Hampton, Virginia', 
+    'Roanoke, Virginia', 'Portsmouth, Virginia', 'Suffolk, Virginia', 'Lynchburg, Virginia', 
+    # Washington
+    'Seattle, Washington', 'Spokane, Washington', 'Tacoma, Washington', 'Vancouver, Washington', 'Bellevue, Washington', 'Everett, Washington', 
+    'Kent, Washington', 'Yakima, Washington', 'Renton, Washington', 'Spokane Valley, Washington', 'Federal Way, Washington', 'Bellingham, Washington', 
+    'Kennewick, Washington', 'Auburn, Washington', 
+    # West Virginia
+    'Charleston, West Virginia',
+    # Wisconsin
+    'Milwaukee, Wisconsin', 'Madison, Wisconsin', 'Green Bay, Wisconsin', 'Kenosha, Wisconsin', 'Racine, Wisconsin', 'Appleton, Wisconsin', 'Waukesha, Wisconsin', 
+    # Wyoming
+    'Cheyenne, Wyoming',
     ]
