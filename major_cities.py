@@ -78,7 +78,8 @@ major_cities = [
     # Kentucky
     'Louisville, Kentucky', 'Lexington, Kentucky'
     # Louisiana
-    'New Orleans, Louisiana', 'Baton Rouge, Louisiana', 'Shreveport, Louisiana', 'Lafayette, Louisiana', 'Lake Charles, Louisiana', 'Kenner, Louisiana', 
+    'New Orleans, Louisiana', 'Baton Rouge, Louisiana', 'Shreveport, Louisiana', 'Lafayette, Louisiana', 'Lake Charles, Louisiana', 
+    'Kenner, Louisiana', 
     # Maine
     'Portland, Maine',
     # Maryland
@@ -92,9 +93,28 @@ major_cities = [
     'Flint, Michigan','Dearborn, Michigan','Livonia, Michigan','Westland, Michigan','Troy, Michigan','Farmington Hills, Michigan',
     'Kalamazoo, Michigan','Wyoming, Michigan','Southfield, Michigan','Rochester Hills, Michigan',
     # Minnesota
-    'Minneapolis, Minnesota', 'St. Paul, Minnesota', 'Rochester, Minnesota', 'Duluth, Minnesota', 'Bloomington, Minnesota', 'Brooklyn Park, Minnesota', 'Plymouth, Minnesota',
+    'Minneapolis, Minnesota', 'St. Paul, Minnesota', 'Rochester, Minnesota', 'Duluth, Minnesota', 'Bloomington, Minnesota', 'Brooklyn Park, Minnesota', 
+    'Plymouth, Minnesota',
     # Mississippi 
     'Jackson, Mississippi', 'Gulfport, Mississippi',
-    
+    # Missouri
+    'Kansas City, Missouri', 'St. Louis, Missouri', 'Springfield, Missouri', 'Independence, Missouri', 'Columbia, Missouri', 
+    "Lee's Summit, Missouri", "O'Fallon, Missouri", 'St. Joseph, Missouri', 
+    # Montana
+    'Billings, Montana', 'Missoula, Montana',
+    # Nebraska
+    'Omaha, Nebraska', 'Lincoln, Nebraska',
+    # Nevada
+    'Las Vegas, Nevada', 'Henderson, Nevada', 'Reno, Nevada', 'North Las Vegas, Nevada', 'Sparks, Nevada', 
+    # New Hampshire
+    'Manchester, New Hampshire', 'Nashua, New Hampshire', 
+    # New Jersey
+    'Newark, New Jersey', 'Jersey City, New Jersey', 'Paterson, New Jersey', 'Elizabeth, New Jersey', 'Trenton, New Jersey', 
+    'Clifton, New Jersey', 'Camden, New Jersey', 'Passaic, New Jersey', 'Union City, New Jersey', 
+    # New Mexico
+    'Albuquerque, New Mexico', 'Las Cruces, New Mexico', 'Rio Rancho, New Mexico', 'Santa Fe, New Mexico', 
+    # New York
+    'New York, New York', 'Buffalo, New York', 'Rochester, New York', 'Yonkers, New York', 'Syracuse, New York', 'Albany, New York', 
+    'New Rochelle, New York', 'Mount Vernon, New York', 'Schenectady, New York', 
 
     ]
