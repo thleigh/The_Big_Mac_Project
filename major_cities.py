@@ -39,5 +39,22 @@ major_cities = [
     'Lynwood, California', 'Union City, California', 'Apple Valley, California', 'Redlands, California', 'Turlock, California', 
     'Perris, California', 'Manteca, California', 'Milpitas, California', 'Redondo Beach, California', 
     # Colorado
+    'Denver, Colorado', 'Colorado Springs, Colorado', 'Aurora, Colorado', 'Fort Collins, Colorado', 'Lakewood, Colorado', 
+    'Thornton, Colorado', 'Pueblo, Colorado', 'Arvada, Colorado', 'Westminster, Colorado', 'Centennial, Colorado', 
+    'Boulder, Colorado', 'Greeley, Colorado', 'Longmont, Colorado', 'Loveland, Colorado', 
+    # Connecticut
+    'Bridgeport, Connecticut', 'New Haven, Connecticut', 'Hartford, Connecticut', 'Stamford, Connecticut', 'Waterbury, Connecticut', 
+    'Norwalk, Connecticut', 'Danbury, Connecticut', 'New Britain, Connecticut',
+    # Deleware
+    'Wilmington, Delaware',
+    # District of Columbia
+    'Washington, District of Columbia',
+    # Florida
+    'Jacksonville, Florida', 'Miami, Florida', 'Tampa, Florida', 'St. Petersburg, Florida', 'Orlando, Florida', 'Hialeah, Florida', 
+    'Tallahassee, Florida', 'Fort Lauderdale, Florida', 'Port St. Lucie, Florida', 'Pembroke Pines, Florida', 'Cape Coral, Florida', 
+    'Hollywood, Florida', 'Gainesville, Florida', 'Miramar, Florida', 'Coral Springs, Florida', 'Clearwater, Florida', 
+    'Miami Gardens, Florida', 'Palm Bay, Florida', 'West Palm Beach, Florida', 'Pompano Beach, Florida', 'Lakeland, Florida', 
+    'Davie, Florida', 'Miami Beach, Florida', 'Deltona, Florida', 'Plantation, Florida', 'Sunrise, Florida', 'Boca Raton, Florida', 
+    'Largo, Florida', 'Melbourne, Florida', 'Palm Coast, Florida', 'Deerfield Beach, Florida', 'Boynton Beach, Florida', 'Lauderhill, Florida', 
     
     ]
