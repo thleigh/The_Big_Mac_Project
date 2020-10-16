@@ -59,5 +59,13 @@ major_cities = [
     # Georgia
     'Atlanta, Georgia', 'Augusta-Richmond County, Georgia', 'Columbus, Georgia', 'Savannah, Georgia', 'Athens-Clarke County, Georgia', 
     'Sandy Springs, Georgia', 'Macon, Georgia', 'Roswell, Georgia', 'Albany, Georgia', 'Johns Creek, Georgia', 'Warner Robins, Georgia', 
-    
+    # Hawaii
+    'Honolulu, Hawaii',
+    # Idaho
+    'Boise City, Idaho','Nampa, Idaho','Meridian, Idaho',
+    # Illinois
+    'Chicago , Illinois', 'Aurora, Illinois', 'Rockford, Illinois', 'Joliet, Illinois', 'Naperville, Illinois', 
+    'Springfield, Illinois', 'Peoria, Illinois', 'Elgin, Illinois', 'Waukegan, Illinois', 'Cicero, Illinois', 'Champaign, Illinois', 
+    'Bloomington, Illinois', 'Decatur, Illinois', 'Arlington Heights, Illinois', 'Evanston, Illinois', 'Schaumburg, Illinois', 
+    'Bolingbrook, Illinois', 'Palatine, Illinois', 
     ]
