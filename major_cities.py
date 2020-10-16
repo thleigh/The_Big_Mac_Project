@@ -116,5 +116,36 @@ major_cities = [
     # New York
     'New York, New York', 'Buffalo, New York', 'Rochester, New York', 'Yonkers, New York', 'Syracuse, New York', 'Albany, New York', 
     'New Rochelle, New York', 'Mount Vernon, New York', 'Schenectady, New York', 
-
+    # North Carolina
+    'Charlotte, North Carolina', 'Raleigh, North Carolina', 'Greensboro, North Carolina', 'Winston-Salem, North Carolina', 
+    'Durham, North Carolina', 'Fayetteville, North Carolina', 'Cary, North Carolina', 'Wilmington, North Carolina', 
+    'High Point, North Carolina', 'Greenville, North Carolina', 'Asheville, North Carolina', 'Concord, North Carolina', 
+    'Gastonia, North Carolina', 'Jacksonville, North Carolina', 
+    # North Dakota
+    'Fargo, North Dakota',
+    # Ohio
+    'Columbus, Ohio', 'Cleveland, Ohio', 'Cincinnati, Ohio', 'Toledo, Ohio', 'Akron, Ohio', 'Dayton, Ohio', 'Parma, Ohio', 'Canton, Ohio', 'Youngstown, Ohio', 
+    # Oklahoma
+    'Oklahoma City, Oklahoma',  'Tulsa, Oklahoma',  'Norman, Oklahoma',  'Broken Arrow, Oklahoma',  'Lawton, Oklahoma',  'Edmond, Oklahoma',  
+    # Oregon
+    'Portland, Oregon', 'Eugene, Oregon', 'Salem, Oregon', 'Gresham, Oregon', 'Hillsboro, Oregon', 'Beaverton, Oregon', 'Bend, Oregon', 'Medford, Oregon', 
+    # Pennsylvania
+    'Philadelphia, Pennsylvania', 'Pittsburgh, Pennsylvania', 'Allentown, Pennsylvania', 'Erie, Pennsylvania', 'Reading, Pennsylvania', 
+    'Scranton, Pennsylvania', 'Bethlehem, Pennsylvania', 
+    # Rhode Island
+    'Providence, Rhode Island', 'Warwick, Rhode Island', 'Cranston, Rhode Island', 'Pawtucket, Rhode Island', 
+    # South Carolina
+    'Columbia, South Carolina', 'Charleston, South Carolina', 'North Charleston, South Carolina', 'Mount Pleasant, South Carolina', 'Rock Hill, South Carolina', 
+    # South Dakota 
+    'Sioux Falls, South Dakota', 'Rapid City, South Dakota', 
+    # Tennessee
+    'Memphis, Tennessee', 'Nashville-Davidson, Tennessee', 'Knoxville, Tennessee', 'Chattanooga, Tennessee', 'Clarksville, Tennessee', 'Murfreesboro, Tennessee', 
+    # Texas
+    'Houston, Texas', 'San Antonio, Texas', 'Dallas, Texas', 'Austin, Texas', 'Fort Worth, Texas', 'El Paso, Texas', 'Arlington, Texas', 'Corpus Christi, Texas', 
+    'Plano, Texas', 'Laredo, Texas', 'Lubbock, Texas', 'Garland, Texas', 'Irving, Texas', 'Amarillo, Texas', 'Grand Prairie, Texas', 'Brownsville, Texas', 
+    'Pasadena, Texas', 'Mesquite, Texas', 'McKinney, Texas', 'McAllen, Texas', 'Killeen, Texas', 'Waco, Texas', 'Carrollton, Texas', 'Beaumont, Texas', 
+    'Abilene, Texas', 'Frisco, Texas', 'Denton, Texas', 'Midland, Texas', 'Wichita Falls, Texas', 'Odessa, Texas', 'Round Rock, Texas', 'Richardson, Texas', 
+    'Tyler, Texas', 'Lewisville, Texas', 'College Station, Texas', 'San Angelo, Texas', 'Pearland, Texas', 'Allen, Texas', 'League City, Texas', 'Longview, Texas', 
+    'Sugar Land, Texas', 'Edinburg, Texas', 'Mission, Texas', 'Bryan, Texas', 'Baytown, Texas', 'Pharr, Texas', 'Missouri City, Texas', 
+    
     ]
