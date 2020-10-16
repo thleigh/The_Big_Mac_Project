@@ -68,4 +68,19 @@ major_cities = [
     'Springfield, Illinois', 'Peoria, Illinois', 'Elgin, Illinois', 'Waukegan, Illinois', 'Cicero, Illinois', 'Champaign, Illinois', 
     'Bloomington, Illinois', 'Decatur, Illinois', 'Arlington Heights, Illinois', 'Evanston, Illinois', 'Schaumburg, Illinois', 
     'Bolingbrook, Illinois', 'Palatine, Illinois', 
+    # Indiana
+    'Indianapolis, Indiana','Fort Wayne, Indiana','Evansville, Indiana','South Bend, Indiana','Hammond, Indiana','Bloomington, Indiana',
+    'Gary, Indiana','Carmel, Indiana','Fishers, Indiana','Muncie, Indiana','Lafayette, Indiana',
+    # Iowa
+    'Des Moines, Iowa','Cedar Rapids, Iowa','Davenport, Iowa','Sioux City, Iowa','Waterloo, Iowa','Iowa City, Iowa',
+    # Kansas
+    'Wichita, Kansas', 'Overland Park, Kansas', 'Kansas City, Kansas', 'Topeka, Kansas', 'Olathe, Kansas', 'Lawrence, Kansas', 
+    # Kentucky
+    'Louisville, Kentucky', 'Lexington, Kentucky'
+    # Louisiana
+    'New Orleans, Louisiana', 'Baton Rouge, Louisiana', 'Shreveport, Louisiana', 'Lafayette, Louisiana', 'Lake Charles, Louisiana', 'Kenner, Louisiana', 
+    # Maine
+    'Portland, Maine',
+    # Maryland
+    'Baltimore, Maryland',
     ]
