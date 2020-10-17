@@ -24,14 +24,15 @@ driver = webdriver.Chrome(chrome_location, chrome_options=options)
 # 3. If no data is returned, restart and enter next city
 # 4. If data is returned, save data, close selenium and go to next city.
 
-
-def doordash(data):
+def doordashDriver():
     try: 
         driver.get('https://www.doordash.com/en-US')
         time.sleep(5)
         # print('on the Doordash Home Page!')
     except: 
         print('Could not find Doordash Page')
+
+def doordash(data):
 
     try:
         address_link = driver.find_element_by_class_name('sc-bkCOcH')
@@ -75,3 +76,10 @@ def doordash(data):
         driver.close()
     except:
         print(f'Could not find the Big Mac Price for {data}')
+
+def teardown():
+    driver.close()
+
+def newDriver():
+    driver = webdriver.Chrome(chrome_location, chrome_options=options)
+    driver.get('https://www.doordash.com/en-US')
