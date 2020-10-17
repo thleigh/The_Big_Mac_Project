@@ -29,11 +29,11 @@ def doordash(data):
     try: 
         driver.get('https://www.doordash.com/en-US')
         time.sleep(5)
-        print('on the Doordash Home Page!')
+        # print('on the Doordash Home Page!')
     except: 
         print('Could not find Doordash Page')
 
-    try: 
+    try:
         address_link = driver.find_element_by_class_name('sc-bkCOcH')
         address_link.send_keys(data)
         time.sleep(3)
@@ -44,7 +44,7 @@ def doordash(data):
         address_button = driver.find_element_by_xpath('.//*[@id="root"]/div/div[1]/div[2]/div/div[1]/div[2]/div/div/div/div/div/div/div/div[3]/div/button')
         address_button.click()
         time.sleep(5)
-        print('Going to Doordash Restaurant page')
+        # print('Going to Doordash Restaurant page')
     except:
         print('Could not find button')
 
@@ -59,7 +59,7 @@ def doordash(data):
         restaurant_link_inner = driver.find_element_by_class_name('sc-bHwgHz')
         restaurant_link_inner.click()
         time.sleep(5)
-        print('on the Mcdonalds page!')
+        # print('on the Mcdonalds page!')
     except:
         print('Could not find dropdown button')
 
@@ -71,6 +71,7 @@ def doordash(data):
             big_mac_price_parsed=price.split('\n')
             mcdonalds_prices.append(big_mac_price_parsed)
         big_mac_price = mcdonalds_prices[1]    
-        print(big_mac_price)
+        print( f'The Big Mac price in {data} is: ', big_mac_price)
+        driver.close()
     except:
-        print('Could not find the Big Mac Price')
+        print(f'Could not find the Big Mac Price for {data}')
