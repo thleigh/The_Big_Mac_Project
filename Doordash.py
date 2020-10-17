@@ -3,7 +3,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 import datetime, re, requests, io, time, random, string
 from chrome_driver import chrome_location
-from major_cities import major_cities
 
 options = Options()
 options.add_argument('--disable-extensions')
@@ -15,17 +14,18 @@ options.add_argument('--no-sandbox')
 options.set_headless(True)
 
 # locates the chrome_driver app in the local system
-driver = webdriver.Chrome(chrome_location)
+driver = webdriver.Chrome(chrome_location, chrome_options=options)
 # , chrome_options=options
 
-# TO DO
-# CREATE A FOR LOOP THAT LOOPS THROUGH ALL OF THE MAJOR CITIES
-def cities():
-    for cities in major_cities:
-        print(cities)
+# Thought Process
+
+# 1. Loop through major cities, one at a time
+# 2. Start Selenium inputing that city
+# 3. If no data is returned, restart and enter next city
+# 4. If data is returned, save data, close selenium and go to next city.
 
 
-def doordash():
+def doordash(data):
     try: 
         driver.get('https://www.doordash.com/en-US')
         time.sleep(5)
@@ -35,7 +35,7 @@ def doordash():
 
     try: 
         address_link = driver.find_element_by_class_name('sc-bkCOcH')
-        address_link.send_keys('Fresno, California')
+        address_link.send_keys(data)
         time.sleep(3)
     except: 
         print('Could not imput correct data')
@@ -56,7 +56,6 @@ def doordash():
         print("Restaurant Link and Button Not Found on doordash")
 
     try:
-        # Finds the popup hover once there is data inserted into the input and clicks that hover
         restaurant_link_inner = driver.find_element_by_class_name('sc-bHwgHz')
         restaurant_link_inner.click()
         time.sleep(5)
@@ -75,5 +74,3 @@ def doordash():
         print(big_mac_price)
     except:
         print('Could not find the Big Mac Price')
-
-doordash()
