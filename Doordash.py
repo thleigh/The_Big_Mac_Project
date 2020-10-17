@@ -15,13 +15,15 @@ options.add_argument('--no-sandbox')
 options.set_headless(True)
 
 # locates the chrome_driver app in the local system
-driver = webdriver.Chrome(chrome_location, chrome_options=options)
+driver = webdriver.Chrome(chrome_location)
 # , chrome_options=options
 
 # TO DO
 # CREATE A FOR LOOP THAT LOOPS THROUGH ALL OF THE MAJOR CITIES
-for cities in major_cities:
-    print(cities)
+def cities():
+    for cities in major_cities:
+        print(cities)
+
 
 def doordash():
     try: 
@@ -30,24 +32,21 @@ def doordash():
         print('on the Doordash Home Page!')
     except: 
         print('Could not find Doordash Page')
-        driver.close()
 
     try: 
         address_link = driver.find_element_by_class_name('sc-bkCOcH')
-        address_button = driver.find_element_by_class_name('sc-ekQYnd')
-        print('Found input and button')
+        address_link.send_keys('Fresno, California')
+        time.sleep(3)
     except: 
-        print('Could not find Doordash Input Form')
+        print('Could not imput correct data')
 
-    try: 
-        address_link.send_keys('90403')
-        time.sleep(0.5)
+    try:
+        address_button = driver.find_element_by_xpath('.//*[@id="root"]/div/div[1]/div[2]/div/div[1]/div[2]/div/div/div/div/div/div/div/div[3]/div/button')
         address_button.click()
         time.sleep(5)
         print('Going to Doordash Restaurant page')
-    except: 
-        print('Could not imput correct data')
-        driver.close()
+    except:
+        print('Could not find button')
 
     try:
         restaurant_link = driver.find_element_by_class_name('sc-bkCOcH')
@@ -60,7 +59,7 @@ def doordash():
         # Finds the popup hover once there is data inserted into the input and clicks that hover
         restaurant_link_inner = driver.find_element_by_class_name('sc-bHwgHz')
         restaurant_link_inner.click()
-        time.sleep(3)
+        time.sleep(5)
         print('on the Mcdonalds page!')
     except:
         print('Could not find dropdown button')
@@ -77,6 +76,4 @@ def doordash():
     except:
         print('Could not find the Big Mac Price')
 
-
-
-
+doordash()
