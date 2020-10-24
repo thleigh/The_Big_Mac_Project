@@ -2,11 +2,12 @@ require('dotenv').config();
 const express = require('express');
 const router = express.Router();
 const BigMac = require('../../models/BigMac');
+const db = require('../../models');
 
 // GET /api/bigmac
 // Display all prices
 router.get('/', (req, res) => {
-    BigMac.find()
+    db.BigMac.find()
     .then(bigmac => {
         res.send(bigmac)
     })
