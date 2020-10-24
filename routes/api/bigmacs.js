@@ -16,8 +16,7 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     const newBigMac = new BigMac({
-        city: req.body.city,
-        state: req.body.state,
+        location: req.body.location,
         price: req.body.price
     })
     newBigMac.save()

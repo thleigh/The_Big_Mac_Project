@@ -61,15 +61,15 @@ def doordash(data):
         big_mac_price = mcdonalds_prices[1]    
         for big_mac_prices in big_mac_price:
             results = {
-                'location': data,
-                'price': big_mac_prices
+                "location": data,
+                "price": big_mac_prices[1:]
             } 
             # print( f'The Big Mac price in {data} is:', big_mac_prices)
             print(results)
         driver.close()
     except:
         print(f'Could not find the Big Mac Price for {data}')
-    driver.quit()a
+    driver.quit()
 
 def newDriver():
     driver = webdriver.Chrome(chrome_location, chrome_options=options)
