@@ -2,10 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema; 
 
 const BigMacSchema = new Schema ({
-    city: {
-        type: String
-    },
-    state: {
+    location: {
         type: String
     },
     price: {
