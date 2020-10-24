@@ -2,16 +2,15 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema; 
 
 const BigMacSchema = new Schema ({
-  
-    City: {
+    city: {
         type: String
     },
-    State: {
+    state: {
         type: String
     },
-    Price: {
+    price: {
         type: Number
-    }
-})
+    },
+});
 
 module.exports = mongoose.model('BigMac', BigMacSchema);
