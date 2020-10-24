@@ -16,28 +16,17 @@ options.set_headless(True)
 # locates the chrome_driver app in the local system
 # , chrome_options=options
 
-# Thought Process
-
-# 1. Loop through major cities, one at a time
-# 2. Start Selenium inputing that city
-# 3. If no data is returned, restart and enter next city
-# 4. If data is returned, save data, close selenium and go to next city.
-
-# def doordashDriver():
-#     driver.get('https://www.doordash.com/en-US')
-#     time.sleep(5)
-
 def doordash(data):
-    driver = webdriver.Chrome(chrome_location, chrome_options=options)
+    driver = webdriver.Chrome(chrome_location)
     driver.get('https://www.doordash.com/en-US')
     time.sleep(5)
 
     try:
-        address_link = driver.find_element_by_class_name('sc-bkCOcH')
+        address_link = driver.find_element_by_class_name('sc-Ehqfj')
         address_link.send_keys(data)
         time.sleep(3)
     except: 
-        print('Could not imput correct data')
+        print('Could not input correct data')
 
     try:
         address_button = driver.find_element_by_xpath('.//*[@id="root"]/div/div[1]/div[2]/div/div[1]/div[2]/div/div/div/div/div/div/div/div[3]/div/button')
@@ -48,14 +37,14 @@ def doordash(data):
         print('Could not find button')
 
     try:
-        restaurant_link = driver.find_element_by_class_name('sc-bkCOcH')
+        restaurant_link = driver.find_element_by_class_name('sc-Ehqfj')
         restaurant_link.send_keys('Mcdonalds')
         time.sleep(3)
     except:
         print("Restaurant Link and Button Not Found on doordash")
 
     try:
-        restaurant_link_inner = driver.find_element_by_class_name('sc-bHwgHz')
+        restaurant_link_inner = driver.find_element_by_class_name('sc-itybZL')
         restaurant_link_inner.click()
         time.sleep(5)
         # print('on the Mcdonalds page!')
