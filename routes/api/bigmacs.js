@@ -27,5 +27,12 @@ router.post('/', (req, res) => {
     .catch(err => console.log(err))
 })
 
+router.delete('/:id', (req,res) => {
+    db.BigMac.deleteOne({
+        _id: req.params.id
+    })
+    .then(res.send('deleted'))
+    .catch(err => console.log(err))
+})
 
 module.exports = router

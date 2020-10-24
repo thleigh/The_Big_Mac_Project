@@ -17,7 +17,7 @@ options.set_headless(True)
 # , chrome_options=options
 
 def doordash(data):
-    driver = webdriver.Chrome(chrome_location)
+    driver = webdriver.Chrome(chrome_location, chrome_options=options)
     driver.get('https://www.doordash.com/en-US')
     time.sleep(5)
 
@@ -59,11 +59,17 @@ def doordash(data):
             big_mac_price_parsed=price.split('\n')
             mcdonalds_prices.append(big_mac_price_parsed)
         big_mac_price = mcdonalds_prices[1]    
-        print( f'The Big Mac price in {data} is: ', big_mac_price)
+        for big_mac_prices in big_mac_price:
+            results = {
+                'location': data,
+                'price': big_mac_prices
+            } 
+            # print( f'The Big Mac price in {data} is:', big_mac_prices)
+            print(results)
         driver.close()
     except:
         print(f'Could not find the Big Mac Price for {data}')
-    driver.quit()
+    driver.quit()a
 
 def newDriver():
     driver = webdriver.Chrome(chrome_location, chrome_options=options)
