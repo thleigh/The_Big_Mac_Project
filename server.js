@@ -5,8 +5,7 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 8000;
 
-const BigMacs = require('./routes/api/bigmacs.js')
-// const resources = require('./routes/api/resources')
+const bigmacs = require('./routes/api/bigmacs.js');
 
 // MIDDLEWARE
 app.use(cors());
@@ -17,7 +16,7 @@ app.get('/', (req, res) => {
     res.status(200).json({message: 'Smile, you are being watching by the Backend Team'});
 });
 
-app.use('/api/bigmacs.js', BigMacs)
+app.use('/api/bigmacs.js', bigmacs)
 
 app.listen(port, () => {
     console.log(`👀 🥁 Server is running on port: ${port}`);
