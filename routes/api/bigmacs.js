@@ -14,6 +14,24 @@ router.get('/', (req, res) => {
     .catch(err => console.log(err))
 })
 
+// Sort by most expensive
+router.get('/most', (req, res) => {
+    db.BigMac.find().sort({price: -1})
+    .then(bigmac => {
+        res.send(bigmac)
+    })
+    .catch(err => console.log(err))
+})
+
+// Sort by least expensive
+router.get('/least', (req, res) => {
+    db.BigMac.find().sort({price: 1})
+    .then(bigmac => {
+        res.send(bigmac)
+    })
+    .catch(err => console.log(err))
+})
+
 router.post('/', (req, res) => {
     const newBigMac = new BigMac({
         location: req.body.location,
