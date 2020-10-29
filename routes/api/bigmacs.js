@@ -32,6 +32,15 @@ router.get('/least', (req, res) => {
     .catch(err => console.log(err))
 })
 
+// Search for a certain city/state
+router.get('/search', (req, res) => {
+    db.BigMac.find({location: req.body.location})
+    .then(bigmac => {
+        res.send(bigmac)
+    })
+    .catch(err => console.log(err))
+})
+
 router.post('/', (req, res) => {
     const newBigMac = new BigMac({
         location: req.body.location,
