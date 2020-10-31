@@ -33,8 +33,10 @@ router.get('/least', (req, res) => {
 })
 
 // Search for a certain city/state
-router.get('/search', (req, res) => {
-    db.BigMac.find({location: req.body.location})
+router.get('/:id', (req, res) => {
+    db.BigMac.find({
+        location: /req.params.id/i
+    })
     .then(bigmac => {
         res.send(bigmac)
     })
