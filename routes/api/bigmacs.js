@@ -35,7 +35,7 @@ router.get('/least', (req, res) => {
 // Search for a certain city/state
 router.get('/:id', (req, res) => {
     db.BigMac.find({
-        location: /req.params.id/i
+        location: { $regex: req.params.id}
     })
     .then(bigmac => {
         res.send(bigmac)
