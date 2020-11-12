@@ -22,7 +22,7 @@ def doordash(data):
     time.sleep(5)
 
     try:
-        address_link = driver.find_element_by_class_name('sc-Ehqfj')
+        address_link = driver.find_element_by_class_name('sc-kecUPG')
         address_link.send_keys(data)
         time.sleep(3)
     except: 
@@ -37,7 +37,7 @@ def doordash(data):
         print('Could not find button')
 
     try:
-        restaurant_link = driver.find_element_by_class_name('sc-Ehqfj')
+        restaurant_link = driver.find_element_by_class_name('sc-kecUPG')
         restaurant_link.send_keys('Mcdonalds')
         time.sleep(3)
     except:
@@ -58,7 +58,7 @@ def doordash(data):
             price = big_mac.text
             big_mac_price_parsed=price.split('\n')
             mcdonalds_prices.append(big_mac_price_parsed)
-        big_mac_price = mcdonalds_prices[1]    
+        big_mac_price = mcdonalds_prices[0]    
         for big_mac_prices in big_mac_price:
             results = {
                 "location": data,
