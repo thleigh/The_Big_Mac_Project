@@ -7,6 +7,8 @@ mongoose.connect(process.env.ATLAS_URI || process.env.MONGO_URI, {
     useUnifiedTopology: true
 });
 
+app.listen(process.env.PORT || 3000)
+
 // Mongoose connection object
 const db = mongoose.connection;
 
