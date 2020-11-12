@@ -22,4 +22,4 @@ db.on('error', (error) => {
     console.log(`Database error\n${error}`)
 });
 
-module.exports.BigMac = require('./BigMac');
+module.exports.BigMac = require('./models/BigMac');
