@@ -22,7 +22,7 @@ def doordash(data):
     time.sleep(5)
 
     try:
-        address_link = driver.find_element_by_class_name('sc-kecUPG')
+        address_link = driver.find_element_by_class_name('sc-bZJeJD')
         address_link.send_keys(data)
         time.sleep(3)
     except: 
@@ -37,7 +37,7 @@ def doordash(data):
         print('Could not find button')
 
     try:
-        restaurant_link = driver.find_element_by_class_name('sc-kecUPG')
+        restaurant_link = driver.find_element_by_class_name('sc-bZJeJD')
         restaurant_link.send_keys('Mcdonalds')
         time.sleep(3)
     except:
